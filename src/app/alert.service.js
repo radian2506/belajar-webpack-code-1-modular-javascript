@@ -1,5 +1,4 @@
-const caekInputValid = require('./utils/cekInputValid');
-module.exports = class AlertService {
+class AlertService {
   constructor() {
     this.error = document.querySelector('#error');
   }
@@ -18,4 +17,4 @@ module.exports = class AlertService {
   };
 
   sembunyikanError = () => this.error.classList.add('d-none');
-};
+}
